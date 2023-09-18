@@ -24,7 +24,7 @@ package() {
    mkdir -p "${pkgdir}/usr/share/plasma/desktoptheme"
    mkdir -p "${pkgdir}/usr/share/plasma/look-and-feel"
    mkdir -p "${pkgdir}/usr/share/plasma/layout-templates"
-   mkdir -p "${pkgdir}/usr/share/plasma/plasmoids"
+   #mkdir -p "${pkgdir}/usr/share/plasma/plasmoids"
    mkdir -p "${pkgdir}/usr/share/Kvantum"
    mkdir -p "${pkgdir}/usr/share/sddm/themes"
    mkdir -p "${pkgdir}/usr/share/wallpapers"
@@ -42,7 +42,7 @@ package() {
    # layout-templates
    cp -r "${srcdir}/${_gitname}/plasma/layout-templates"/* "${pkgdir}/usr/share/plasma/layout-templates"
    # plasmoids
-   cp -r "${srcdir}/${_gitname}/plasma/plasmoids"/* "${pkgdir}/usr/share/plasma/plasmoids"
+   #cp -r "${srcdir}/${_gitname}/plasma/plasmoids"/* "${pkgdir}/usr/share/plasma/plasmoids"
    # wallpaper
    cp -r "${srcdir}/${_gitname}/wallpaper"/* "${pkgdir}/usr/share/wallpapers/"
    # sddm
